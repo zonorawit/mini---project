@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha/Foods</title>
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/564x/bd/e2/cc/bde2cca82bf85e3a45db517cd648f6c1.jpg">
+    <style>
+          body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: bisque;
+        }
+
+        #header {
+            color: rgb(9, 9, 9);
+            display: flex;
+            padding:10px;
+            justify-content: space-between;
+        }
+        #hd{
+            color: rgb(9, 9, 9);
+            display: flex;
+            height:70px;
+
+        }
+
+        #logo {
+            font-size: 24px;
+            font-weight: bold;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: rgb(117, 58, 11);
+            font-weight: 600;
+            font-size: 40px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        #button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        #welcome-text {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -10%);
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        #banner {
+            width: 100%;
+            height: 400px;
+            border-radius: 20px;
+        }
+
+        #banner-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+        #button{
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 20px;
+            margin: 10px;
+        }
+        #button a{
+            text-decoration: none;
+            text-align: center;
+            color: #fff;
+        }
+     
+        #menu-container {
+            background-color: rgb(151, 124, 63);
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 10px;
+        }
+        .menu-item {
+            color: rgb(16, 16, 21);
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .hh img{
+            border-radius: 25px;
+        }
+        .hh p{
+            margin-left: 30px;
+            margin-right: 20px;
+            text-align: center;
+        }
+        #button2 {
+            background-color: rgb(153, 69, 10);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+        
+        }
+        .hh h4{
+            text-align: center;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .hh{
+            border: 1px solid black;
+        }
+        footer {
+    background-color: #d8b361;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-column h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-column img {
+    width:400px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Media Query for Responsive Footer */
+@media (max-width: 768px) {
+    .footer-grid {
+        flex-direction: column;
+    }
+
+.footer-column {
+        flex: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+.footer-column button{
+    background-color: rgb(187, 135, 39)
+}
+    </style>
+</head>
+<body>
+<div id="header">
+    <div id="logo">Alpha</div>
+    <div id="hd">
+        <button id="button"><a href="#">Sign up</a></button>
+        <button id="button"><a href="log_in.html">Log in</a></button>
+    </div>
+</div>
+<div id="banner">
+    <img src="https://www.timeshighereducation.com/student/sites/default/files/styles/default/public/different_sports.jpg?itok=CW5zK9vp" id="banner-image" alt="Sport Image" >
+    <div id="welcome-text">Welcome to Alpha Sport Club</div>
+</div>
+<div id="menu-container">
+    <a href="Index.html" class="menu-item">Home</a>
+    <a href="#section" class="menu-item">About</a>
+    <a href="#Tip to be healthy" class="menu-item">Tips to be Healthy</a>
+    <a href="#Sports" class="menu-item">Sports</a>
+    </div><br>
+<div class="hh">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" alt="Photo Frame" width="100%" height="475px">
+    <h2>1. Base your meals on higher fibre starchy carbohydrates</h2>
+    <p>Starchy carbohydrates should make up just over a third of the food you eat. They include potatoes, bread, rice, pasta and cereals.
+        Try to include at least 1 starchy food with each main meal. Some people think starchy foods are fattening, but gram for gram the carbohydrate they contain provides fewer than half the calories of fat.</p><br>
+
+    <h2>2. Eat lots of fruit and veg</h2>
+    <p>It's recommended that you eat at least 5 portions of a variety of fruit and veg every day. They can be fresh, frozen, canned, dried or juiced.
+        Getting your 5 A Day is easier than it sounds. Why not chop a banana over your breakfast cereal, or swap your usual mid-morning snack for a piece of fresh fruit?
+        A portion of fresh, canned or frozen fruit and vegetables is 80g. A portion of dried fruit (which should be kept to mealtimes) is 30g.</p>
+        <img src="https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-03/plant-based-food-mc-220323-02-273c7b.jpg" alt="Photo Frame" width="100%" height="475px">
+    <h2>3. Eat more fish, including a portion of oily fish</h2>
+    <p>Fish is a good source of protein and contains many vitamins and minerals.
+        Aim to eat at least 2 portions of fish a week, including at least 1 portion of oily fish.
+        Oily fish are high in omega-3 fats, which may help prevent heart disease. 
+        You can choose from fresh, frozen and canned, but remember that canned and smoked fish can be high in salt.
+        Most people should be eating more fish, but there are recommended limits for some types of fish.</p><br>
+
+    <h2>4. Cut down on saturated fat and sugar</h2>
+    <p>You need some fat in your diet, but it's important to pay attention to the amount and type of fat you're eating.
+        There are 2 main types of fat: saturated and unsaturated. Too much saturated fat can increase the amount of cholesterol in the blood, which increases your risk of developing heart disease.
+        Try to eat less saturated fat and choose foods that contain unsaturated fats instead, such as vegetable oils and spreads, oily fish and avocados.
+        All types of fat are high in energy, so they should only be eaten in small amounts.</p><br>
+
+<h2>5. Eat less salt: no more than 6g a day for adults</h2>
+    <p>Eating too much salt can raise your blood pressure. People with high blood pressure are more likely to develop heart disease or have a stroke.
+        Even if you do not add salt to your food, you may still be eating too much.
+        Use food labels to help you cut down. More than 1.5g of salt per 100g means the food is high in salt.
+        Adults and children aged 11 and over should eat no more than 6g of salt (about a teaspoonful) a day. Younger children should have even less.</p>
+        <img src="https://assets3.thrillist.com/v1/image/3130793/1200x630/flatten;crop_down;webp=auto;jpeg_quality=70" alt="Photo Frame" width="100%" height="475px">
+    <h2>6. Do not get thirsty</h2>
+    <p>You need to drink plenty of fluids to stop you getting dehydrated. This is in addition to the fluid you get from the food you eat. 
+        All non-alcoholic drinks count, but water, lower fat milk and lower sugar drinks, including tea and coffee, are healthier choices. 
+        Even unsweetened fruit juice and smoothies are high in free sugar.
+        Remember to drink more fluids during hot weather or while exercising.</p><b r></b>
+
+    <h2>7. Do not skip breakfast</h2> 
+    <p>Some people skip breakfast because they think it'll help them lose weight.
+        But a healthy breakfast high in fibre and low in fat, sugar and salt can form part of a balanced diet and can help you get the nutrients you need for good health.
+        A wholegrain lower sugar cereal with semi-skimmed milk and fruit sliced over the top is a tasty and healthier breakfast.</p><br>
+</div>
+
+<footer>
+    <div class="footer-grid">
+        <div class="footer-column">
+        <label>Description</label><br>
+        <textarea name="des" rows="7" cols="50"></textarea><br><br>
+        <button><a>submit</a></button>
+        </div>
+        <div class="footer-column">
+            <h4>Link</h4>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Tips to be healthy</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Contact Us</h4>
+            <p>Phone: 09-123456789</p>
+            <p>Email:
+                <a href="mailto:email1@example.com">alphaclub@example.com</a><br>
+                <a href="mailto:email2@example.com">alpha12@example.com</a><br>
+                <a href="mailto:email3@example.com">alphagym3@example.com</a>
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

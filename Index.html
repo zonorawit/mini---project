@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Alpha Sports Clubs</title>
+    <link rel="icon" type="image/x-icon" href="https://www.freepik.com/free-vector/colorful-letter-gradient-logo-design_40158753.htm#page=2&query=Alpha%20logo&position=9&from_view=search&track=ais">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: bisque;
+        }
+
+        #header {
+            color: rgb(9, 9, 9);
+            display: flex;
+            padding:10px;
+            justify-content: space-between;
+        }
+        #hd{
+            color: rgb(9, 9, 9);
+            display: flex;
+            height:70px;
+
+        }
+
+        #logo {
+            font-size: 24px;
+            font-weight: bold;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: rgb(117, 58, 11);
+            font-weight: 600;
+            font-size: 40px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        #button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        #banner {
+            width: 100%;
+            height: 400px;
+            border-radius: 20px;
+        }
+
+        #banner-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        #welcome-text {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -10%);
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        #menu-container {
+            background-color: rgb(151, 124, 63);
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 10px;
+        }
+
+        .menu-item {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        #section {
+            display: flex;
+            align-items: center;
+            margin: 20px;
+        }
+        #text-frame {
+            flex: 1;
+            padding: 20px;
+            margin-right: 20px;
+            background-color:#fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin-left: 100px;
+        }
+
+        #text-frame h3 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        #text-frame p {
+            font-size: 14px;
+            color: #020101;
+            padding:20px 30px;
+        }
+
+        #photo-frame {
+            flex: 1;
+        }
+
+        #photo-frame img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+        }
+      #text-frame h3{
+        text-align: center;
+        font-size: 30px;
+      }
+      h1 {
+            text-align: center;
+            color: rgb(11, 11, 13);
+            font-size: 50px;
+        }
+        .image-container {
+        display: flex;
+         justify-content: space-between;
+        }
+
+        .image-text {
+        text-align: center;
+        }
+
+        .image-text img {
+         padding: 10px;
+         margin-left: 40px;
+         margin-right: 40px;
+         border-radius: 30px;
+        }
+
+        p{
+            font-weight: 700;
+            font-size: 25px;
+            
+        }
+        .image-container1 {
+        display: flex;
+         justify-content: space-between;
+        }
+
+        .image-text1 {
+        text-align: center;
+        }
+
+.image-text1 img {
+         padding: 10px;
+         margin-left: 20px;
+         margin-right: 20px;
+         border-radius: 30px;
+        }
+        #button{
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 20px;
+            margin: 10px;
+        }
+        #button a{
+            text-decoration: none;
+            text-align: center;
+            color: #fff;
+        }
+        .image-container1 .image-text1 p a{
+            text-decoration: none;
+            color: black;
+        }
+        /* Style for footer section */
+footer {
+    background-color: #d8b361;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-column h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-column img {
+    width:400px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Media Query for Responsive Footer */
+@media (max-width: 768px) {
+    .footer-grid {
+        flex-direction: column;
+    }
+
+    .footer-column {
+        flex: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+.image-text p a{
+    text-decoration: none;
+    color:black;
+}
+.footer-column button{
+    background-color: rgb(187, 135, 39)
+}
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="logo">Alpha</div>
+        <div id="hd">
+            <button id="button"><a href="sign_up.html">Sign up</a></button>
+            <button id="button"><a href="log_in.html">Log in</a></button>
+        </div>
+    </div>
+    <div id="banner">
+        <img src="https://www.timeshighereducation.com/student/sites/default/files/styles/default/public/different_sports.jpg?itok=CW5zK9vp" id="banner-image" alt="Sport Image" >
+        <div id="welcome-text">Welcome to Alpha Sport Club</div>
+    </div>
+    <div id="menu-container">
+        <a href="#" class="menu-item">Home</a>
+        <a href="#section" class="menu-item">About</a>
+        <a href="#Tip to be healthy" class="menu-item">Tips to be Healthy</a>
+        <a href="#Sports" class="menu-item">Sports</a>
+        <a href="shop.html" class="menu-item">Shop</a>
+    </div>
+    <div id="section">
+        <div id="text-frame">
+            <h3>About Us</h3>
+            <p>Join our sports club, run by a dedicated team of four. We're here for all ages and anyone with a passion for sports but limited opportunities. No matter where you are or what challenges you face, we're your ticket to a healthier, fitter you. Trust us, your dream body is just a step away. Come join us now!</p>
+        </div>
+        <div id="photo-frame">
+            <img src="https://gympluscoffee.com/cdn/shop/articles/what-to-wear-to-the-gym-gym-coffee_e0e3561d-ac15-4c28-be3f-152af9473675.png?v=1696419187" alt="Photo Frame" width="500px" height="300px">
+        </div>
+    </div>
+
+<h1> Meet our Team </h1>
+    <div class="flex">
+        <div class="image-container">
+            <div class="image-text1">
+                <img src="Image/Nan Phan Haw Kham.png" alt="tree" width="300px" height="300px">
+                <p>Nang Phan Haw Kham</p>
+            </div>
+            <div class="image-text">
+                <img src="Image/Thiri Kyaw Kyaw.png" alt="tree" width="300px" height="300px">
+                <p>Thiri Kyaw Kyaw</p>
+            </div>
+            <div class="image-text">
+                <img src="Image/Eaint Mya Hmuu Paing.png" alt="tree" width="300px" height="300px">
+                <p>Eaint Mya Hmuu Paing</p>
+            </div>
+        </div>     
+</div>
+<h1 id="Sports">Sports</h1>
+<div class="flex">
+    <div class="image-container1">
+        <div class="image-text1">
+            <img src="https://www.shape.com/thmb/Jg_VX_6NAhL76PCow1Szwj1Zhso=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/swim-workouts-every-level-2bc897b86adf4bcda8de8eb11fafcf84.jpg" alt="tree" width="250px" height="300px">
+            <p><a href="swimming.html">Swimming</a></p>
+        </div>
+        <div class="image-text1">
+            <img src="https://betterbody.ie/wp-content/uploads/elementor/thumbs/strong-man-training-in-gym-1-scaled-puc6dnltxn54i7tqe8yfryh0a4wn9r8z3ewgicqsqo.jpg" alt="tree" width="250px" height="300px">
+            <p><a href="gym.html">Gym</a></p>
+        </div>
+        <div class="image-text1">
+            <img src="https://cdn.britannica.com/69/190969-050-B88D8401/Crescenzi-Maria-Carmen-Rhythmic-Gymnastics-Grand-Prix-February-20-2016.jpg" alt="tree" width="250px" height="300px">
+            <p><a href="gymnastic.html">Gymnastic</a></p>
+        </div>
+        <div class="image-text1">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Milad_Kharchegani_at_the_2016_Summer_Olympics.jpg" alt="tree" width="250px" height="300px">
+            <p><a href="taekwondo.html">Taekwondo</a></p>
+        </div>
+    </div>     
+</div>
+
+<h1 id="Tip to be healthy">Tips to be healthy</h1>
+    <div class="flex">
+        <div class="image-container">
+            <div class="image-text">
+                <img src="https://ben.org.uk/media/xezlopmb/guide-to-improving-sleep-1.jpg?anchor=center&mode=crop&width=640&height=900&rnd=132920080467670000" alt="tree" width="250px" height="300px">
+                <p><a href="sleep.html">Sleep</a></p>
+                               
+            </div>
+            <div class="image-text">
+                <img src="https://ychef.files.bbci.co.uk/976x549/p04tx3m6.jpg" alt="tree" width="250px" height="300px">
+                <p><a href="foods.html">Foods</a></p>
+
+            </div>
+            <div class="image-text">
+                <img src="https://media.healthyfood.com/wp-content/uploads/2017/03/Ask-the-experts-Walking-vs-running.jpg" alt="tree" width="250px" height="300px">
+                <p><a href="exercises.html">Exercieses</a></p>
+            </div>
+        </div>     
+</div>
+
+
+<footer>
+    <div class="footer-grid">
+        <div class="footer-column">
+        <label>Description</label><br>
+        <textarea name="des" rows="7" cols="50"></textarea><br><br>
+        <button><a>submit</a></button>
+        </div>
+        <div class="footer-column">
+            <h4>Link</h4>
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Tips to be healthy</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Contact Us</h4>
+            <p>Phone: 09-123456789</p>
+            <p>Email:
+                <a href="mailto:email1@example.com">alphaclub@example.com</a><br>
+                <a href="mailto:email2@example.com">alpha12@example.com</a><br>
+                <a href="mailto:email3@example.com">alphagym3@example.com</a>
+            </p>
+        </div>
+    </div> 
+</footer>
+
+</body>
+</html>
